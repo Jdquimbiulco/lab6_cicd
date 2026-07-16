@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 app.get('/saludo/:nombre', (req, res) => {
     const { nombre } = req.params;
     res.status(200).json({
-        mensaje: `Hola, ${nombre}`,
+        mensaje: `Hola, bienvenido usuario ${nombre}`,
         estado: 'API disponible'
     });
 });
