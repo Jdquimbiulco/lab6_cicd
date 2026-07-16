@@ -28,6 +28,7 @@ jobs:
       
       VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
       VERCEL_PRJID: ${{ secrets.VERCEL_PRJID }}
+      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PRJID }}
     steps:
       - name: clonar repositorio
         uses: actions/checkout@v3
